@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
-import Counter from './Counter'
 
-
+import Counter from './Counter';
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
         <h1 className="App-title">Counter App in ReactJS</h1>
       </header>
       <Counter initValue={0} />
-      <Counter initValue={108} />
     </div>
   );
 }
